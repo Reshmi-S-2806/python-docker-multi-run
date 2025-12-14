@@ -1,7 +1,7 @@
 ## Offline Assignment
 
 ## Overview
-This project demonstrates a simple DevOps workflow using Python, Gradle, Docker, and Shell scripting.
+This project demonstrates a simple workflow using Python, Gradle, Docker, and Shell scripting.
 
 ## Requirements Covered
 - Python application accepting runtime arguments
