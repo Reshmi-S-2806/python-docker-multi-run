@@ -1,0 +1,16 @@
+plugins {
+    id 'base'
+}
+
+task packagePython(type: Zip) {
+    from 'app'
+    archiveFileName = 'python_class.zip'
+    destinationDirectory = file("$buildDir")
+}
+
+build {
+    dependsOn packagePython
+    doLast {
+        println "Build completed. Zip created at build/python_class.zip"
+    }
+}
